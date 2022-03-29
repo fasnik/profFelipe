@@ -1,0 +1,75 @@
+body{
+	margin-top: 30px;
+	padding:auto;
+	width: auto;
+	margin: auto;
+	background-image: url(malha.jpg);
+}
+
+h2{
+    text-align:center;
+}
+li{
+    font-size:medium;
+}
+header{
+	text-align: center;
+}
+header::before{
+	
+	content: url("imagens/foto1.jpg");
+	display: block;
+}
+
+header::after{
+	
+	content: "Professor Felipe - Física e Matemática";
+	font-size: 1.7em;
+	font-weight: 500;
+}
+	
+
+table {
+	border: 2px solid black;
+	box-shadow: 10px -15px gray;
+}
+
+table, th, td{
+    padding:5px;
+    border:1px solid black;
+	width: auto;
+	margin: auto;
+}
+tr:nth-child(2n){
+	background-color: rgb(247, 167, 167);
+}
+td:first-child{
+	font-style: italic;
+}
+th{
+	background-color: indianred;
+}
+footer{
+	text-align: center;
+	font-size: xx-small;
+	padding: auto;
+	margin-top: 1rem;
+}
+
+.tabela_apoio{
+	margin-top: 3rem;
+	padding: 2rem;
+	border: 1px solid black;
+	box-shadow: 10px -10px gray;
+}
+a{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.conteudos{
+	text-align: center;
+}
+.tdzero td{
+    font-size:large;
+}
